@@ -42,7 +42,7 @@ exports.DeleteCart = async function (req, res, next) {
         res.status(404).json({
             message: error.message
         })  
-    }
+    } 
 }
 
 exports.UpdateCart = async function (req, res, next) {
